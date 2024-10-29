@@ -1,5 +1,8 @@
 """This file contains tools to implement the 
-splitting method introduced in https://arxiv.org/abs/1308.6270."""
+splitting method introduced in https://arxiv.org/abs/1308.6270.
+NB: THIS FILE OVERLAPS GREATLY WITH toricsplittingtools.py and should be merged 
+eventually. 
+"""
 
 import numpy as np
 import random

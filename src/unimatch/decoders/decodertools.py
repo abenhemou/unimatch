@@ -1,9 +1,12 @@
 """
 This module contains functions for the implementation of the restricted 
 minimum weight perfect matching decoder for a color code of any distance. 
+NB: THIS FILE OVERLAPS GREATLY WITH unifiedColor488Decoder.py and should be merged 
+eventually. 
 """
 import numpy as np
 import itertools 
+
 
 def get_check_matrix(my_code, restricted=None): 
     '''
